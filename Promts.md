@@ -1,6 +1,6 @@
 Ai Promt:
 
- I am working for developement a frontend website using only Html and Class . Give me a sponsor section Idea which slide right to left automatically which contain sopnser Logo .
+ I am working for developement a frontend website using only Html and Class . Give me a sponsor section Idea which slide icons right to left automatically which contain sopnser Logo. Like a rivvons sliding .
 
 Promt 2: 
 

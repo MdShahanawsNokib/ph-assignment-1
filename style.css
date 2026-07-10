@@ -142,6 +142,71 @@
 }
 
 
+
+
+
+/* Price template Section */
+.price-section-heading {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.price-section-heading h2 {
+    font-size: 40px;
+    margin-top: 3rem;
+}
+.price-template hr{
+    border: .5px solid #0542a43e;
+}
+.price-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+
+.price-section .price-template {
+    border: 1px solid #0d216469;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.price-card-content ul{
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+.price-card-content ul li{
+   
+    padding: 0.5rem 0;
+   
+}
+
+.price-card-content ul li::marker{
+    color: #2563eb;
+}
+.pro{
+    background-color: #0F172A;
+    color: white;
+}
+
+.pro div p{
+    color: #78acff;
+}
+
+.price-card-btn{
+    text-align: center;
+   
+}
+
+.price-card-btn button{
+    width: 50%;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
 /* fOOTER SECTION */
 
 .footer-section {
@@ -155,10 +220,6 @@
     padding: 20px 0px;
 }
 
-.footer-section-content {
-    display: flex;
-    justify-content: space-between;
-}
 
 .footer-section-content img {
    background-color: rgba(255, 255, 255, 0.694);
@@ -182,6 +243,18 @@ hr {
     gap: 10px;
 }
 
+
+.footer-copywight{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50vw;
+  color: #3b5878;
+}
+
+.footer-copywight div{
+    display: flex;
+    gap: 20px;
+}
 
 
 
