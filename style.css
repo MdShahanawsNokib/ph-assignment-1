@@ -1,3 +1,9 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     height: 50px;
     align-items: center;
@@ -14,9 +20,10 @@
 .menu ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     font-size: 1.2rem;
 }
+
 
 
 .menu ul li a {
@@ -25,10 +32,8 @@
 
 
 }
-
 .menu ul li a:hover {
-    background-color: #2e65bd66;
-    padding: 0.5rem;
+    color: #0542a4;
     transition: 0.2s;
     border-radius: 10px;
 }
@@ -38,5 +43,35 @@
     background-color: #2e65bdbd;
     border: none;
     border-radius: 10px;
-    color: white
+    color: white;
+    font-size: .9rem;
+}
+.hero-section{
+ background-image: url('./assets/banner.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 80vh;
+
+}
+
+.hero-container{
+     display: flex;
+     height: 80vh;
+     
+     font-size: 1.2rem;
+     text-align: center;
+     background-color: rgba(9, 6, 33, 0.402);
+   
+}
+
+.hero-content{
+ flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.hero-btn{
+    margin-top: 5rem;
 }
